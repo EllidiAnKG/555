@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+  border-radius: 21px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: azure;
+  font-size: 35px;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.signBox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.signBox a {
+  color: azure;
+  text-decoration: none;
+  font-size: 20px;
+}
+.signBox a:hover {
+  text-decoration: underline;
+}
+.userData {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  width: 100%;
+}
+.userData .username {
+  margin-top: 5px;
+  width: 300px;
+  padding: 15px;
+  background-color: azure;
+  border-radius: 50px;
+}
+.checkBox {
+  display: flex;
+  justify-content: center;
+  color: azure;
+}
+button {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 45px;
+  background-color: #06a550;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: rgba(240, 240, 240, 0.25) 0px 13px 27px -5px,
+    rgba(241, 239, 239, 0.3) 0px 8px 16px -8px;
+}
+#last {
+  text-align: center;
+}
+#last a {
+  color: azure;
+  text-decoration: none;
+}
